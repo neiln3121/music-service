@@ -12,8 +12,6 @@ services:
       DB_PASSWORD: Pass@word123
       DB_NAME: master
       PORT: 8080
-    depends_on:
-      - mssql
 
   mssql:
     container_name: mssql

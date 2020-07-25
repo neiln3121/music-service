@@ -19,6 +19,7 @@ Once the application is running, all artists can be accessed from:
 http://localhost:8080/api/artists
 
 An album can be retreived using:
+
 http://localhost:8080/api/albums/1
 
 There are 3 artists, 6 albums and a total of 63 tracks inserted by the loader package. This package is also called during the integration tests. These spin up a mssql server using the testcontainers library.
