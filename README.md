@@ -1,5 +1,6 @@
 # music-service
-Implementation of a REST API communicating with a relational database. Uses Gorm library for DB access and test containers library for integration tests
+Implementation of a REST API communicating with a relational database (MS SQL Server). 
+Uses Gorm library for DB access and test containers library for integration tests.
 
 ## Build and Run:
 `go mod vendor`
